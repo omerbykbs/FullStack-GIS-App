@@ -9,6 +9,6 @@ A full-stack web-based Geographic Information System (GIS) application built wit
 
 ## Screenshots ## 
 
-![List View](./screenshots/ss1.jpg)
-![Zoomed Marker](./screenshots/ss2.jpg)
-![Overview](./screenshots/ss3.jpg) |
+![Main](./screenshots/ss1.jpg)
+![Selected location 1](./screenshots/ss2.jpg)
+![Selected location 2](./screenshots/ss3.jpg)

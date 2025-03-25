@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-13T16:19:36Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/452648710",
+        "amenity": "restaurant",
+        "cuisine": "greek",
+        "email": "info@sahlings-gasthaus.de",
+        "internet_access": "wlan",
+        "name": "Sahlings Gasthaus",
+        "opening_hours": "Mo, We-Fr 16:00-23:00; Sa 14:00-23:00; Su 12:00-23:00",
+        "operator": "Apostolos Sigelakis",
+        "phone": "+49 40 7903505",
+        "website": "https://www.sahlings-gasthaus.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9548577,
+          53.4519584
+        ]
+      },
+      "id": "node/452648710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1323820936",
+        "addr:city": "Hamburg",
+        "addr:country": "DE",
+        "addr:housenumber": "39",
+        "addr:postcode": "22397",
+        "addr:street": "Lemsahler Dorfstraße",
+        "amenity": "restaurant",
+        "name": "Gasthaus Offen",
+        "opening_hours": "Mo-Fr 16:00+; Sa,Su 11:30+; Tu off, We off",
+        "opening_hours:kitchen": "Mo-Fr 17:00+; Sa,Su 11:30-15:00,17:00+; Tu off, We off",
+        "operator": "Clas Henning Pieper",
+        "phone": "+49 40 6083835",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.gasthaus-offen.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.104751,
+          53.6864752
+        ]
+      },
+      "id": "node/1323820936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1696448174",
+        "addr:housenumber": "61",
+        "addr:street": "Thedestraße",
+        "amenity": "restaurant",
+        "brewery": "Radeberger",
+        "contact:email": "info@gasthaus-hamburg.de",
+        "contact:phone": "+49 40 41 30 62 51",
+        "cuisine": "mediterranean",
+        "description": "Mediterrane Küche, Curries; hohe Qualität, alles frisch zubereitet, guter Preis",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_in": "no",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "Gasthaus",
+        "opening_hours": "Apr 1-Oct 15: Tu-Fr,Su 12:00+; PH,Sa 16:00+; Oct 16-Mar 31: Tu-Fr 12:00-15:00,18:00+; PH,Sa 16:00+",
+        "operator": "Izabela Grzadka",
+        "organic": "no",
+        "outdoor_seating": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:girocard": "yes",
+        "payment:notes": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "http://www.gasthaus-hamburg.de",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9492539,
+          53.553456
+        ]
+      },
+      "id": "node/1696448174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2867190188",
+        "addr:city": "Hamburg",
+        "addr:housenumber": "405",
+        "addr:postcode": "22309",
+        "addr:street": "Fuhlsbüttler Straße",
+        "amenity": "restaurant",
+        "capacity": "500",
+        "contact:facebook": "q21",
+        "contact:instagram": "q21",
+        "cuisine": "regional",
+        "email": "info@q21-hh.de",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Gasthaus Q21",
+        "opening_hours": "Mo-Th 11:00-00:00; Sa 10:00-01:00; Fr 11:00-01:00; Su 10:00-00:00",
+        "operator": "Q21 Gasthaus GmbH",
+        "outdoor_seating": "yes",
+        "phone": "+49 40 57017180",
+        "smoking": "outside",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.quartier21-gasthaus.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0395239,
+          53.6035609
+        ]
+      },
+      "id": "node/2867190188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4031226512",
+        "check_date": "2024-02-27",
+        "name": "Hamburg Energie Kundencenter",
+        "office": "company",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "operator": "Hamburg Energie",
+        "website": "http://www.hamburgenergie.de/privatkunden/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0007944,
+          53.5552742
+        ]
+      },
+      "id": "node/4031226512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8734342354",
+        "board_type": "technology",
+        "information": "board",
+        "name": "Photovoltaic: Licht zu Strom",
+        "operator": "Gut Karlshöhe",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1098644,
+          53.6306479
+        ]
+      },
+      "id": "node/8734342354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10202278597",
+        "access": "no",
+        "amenity": "charging_station",
+        "bicycle": "yes",
+        "capacity": "2",
+        "description": "Ladestation für E Bike 2x Schuko 1x Bosch 1x Shimano",
+        "fee": "no",
+        "name": "Gasnetz Hamburg",
+        "operator": "Gasnetz Hamburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0635041,
+          53.5290689
+        ]
+      },
+      "id": "node/10202278597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12148501084",
+        "board_type": "information",
+        "description": "Informationen zum Energieberg Georgwerder",
+        "information": "board",
+        "name": "Energieberg Wilhelmsburg",
+        "operator": "Stadtreinigung Hamburg",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0286874,
+          53.5127712
+        ]
+      },
+      "id": "node/12148501084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12192447518",
+        "contact:email": "ieet@tuhh.de",
+        "contact:phone": "49 40 42878-3213",
+        "contact:website": "https://www.tuhh.de/ieet/startseite",
+        "name": "Institut für Elektrische Energietechnik",
+        "office": "research",
+        "operator": "Technische Universität Hamburg",
+        "operator:wikidata": "Q1060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9848791,
+          53.4644849
+        ]
+      },
+      "id": "node/12192447518"
+    }
+  ]
+}

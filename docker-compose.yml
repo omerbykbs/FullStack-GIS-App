@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  db:
+    platform: linux/amd64
+    image: postgis/postgis:latest
+    container_name: gis_db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: gisdb
+    ports:
+      - "5434:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d gisdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  fastapi:
+      build: ./backend
+      container_name: fastapi_app
+      restart: always
+      ports:
+        - "8000:8000"
+      depends_on:
+        db:
+          condition: service_healthy
+      command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  frontend:
+    build: ./frontend
+    container_name: frontend_app
+    restart: always
+    ports:
+      - "5173:5173"
+    depends_on:
+      - fastapi
+
+volumes:
+  pg_data:

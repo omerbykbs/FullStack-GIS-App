@@ -62,7 +62,7 @@ function MapWithList() {
           {...viewState}
           style={{ width: '100%', height: '100%' }}
           mapLib={maplibregl}
-          mapStyle="https://api.maptiler.com/maps/streets/style.json?key=I17EgKskE3hO4XBpLxwz"
+          mapStyle="https://api.maptiler.com/maps/streets/style.json?key=YOURMAPTILERAPKEY" // ENTER YOUR MAPTILER API KEY
           onMove={evt => setViewState(evt.viewState)}
         >
           {locations.map((loc, index) => (

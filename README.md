@@ -5,7 +5,9 @@ A full-stack web-based Geographic Information System (GIS) application built wit
 - Frontend: React, MapLibre GL, Vite
 - Backend: FastAPI, PostgreSQL with PostGIS
 - DevOps: Docker
-- Languages: Python, JavaScript 
+- Languages: Python, JavaScript
+
+## Screenshots ## 
 
 ![List View](./screenshots/ss1.jpg)
 ![Zoomed Marker](./screenshots/ss2.jpg)

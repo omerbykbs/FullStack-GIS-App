@@ -65,7 +65,6 @@ function MapWithList() {
           mapStyle="https://api.maptiler.com/maps/streets/style.json?key=I17EgKskE3hO4XBpLxwz"
           onMove={evt => setViewState(evt.viewState)}
         >
-          {/* Markers for all locations */}
           {locations.map((loc, index) => (
             <Marker
               key={index}
